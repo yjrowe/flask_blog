@@ -1,0 +1,136 @@
+[2019-02-03 10:19:23] [INFO]  * Restarting with stat
+[2019-02-03 10:19:24] [WARNING]  * Debugger is active!
+[2019-02-03 10:19:24] [INFO]  * Debugger PIN: 531-486-818
+[2019-02-03 10:19:24] [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-02-03 10:19:27] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-02-03 10:19:28] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:28] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:28] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:28] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:28] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET / HTTP/1.1" 200 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/css/pagination.css HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/css/m.css HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/css/base.css HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/css/index.css HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/js/pagination.js HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/js/comm.js HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/user/my.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/photo/1.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/photo/2.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/photo/3.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/photo/4.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/photo/5.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/photo/6.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/follow/follow.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/images/top.png HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/images/li.png HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /static/uploads/photo/12.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:28] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:28] "GET /favicon.ico HTTP/1.1" 404 -
+[2019-02-03 10:19:32] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-02-03 10:19:32] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:32] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:32] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:32] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:32] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:32] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:32] "GET /article HTTP/1.1" 200 -
+[2019-02-03 10:19:33] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 8
+[2019-02-03 10:19:33] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:33] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:33] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:33] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:33] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:33] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:33] "GET /photo HTTP/1.1" 200 -
+[2019-02-03 10:19:33] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:33] "GET /static/uploads/photo/8.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:33] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:33] "GET /static/uploads/photo/9.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] SELECT * FROM b_leave_word   WHERE status = "1"   ORDER BY create_time DESC 
+[2019-02-03 10:19:34] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:34] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:34] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:34] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:34] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /leave HTTP/1.1" 200 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx2.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx8.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx7.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx9.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx6.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx10.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx3.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:34] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:34] "GET /static/images/tx5.jpg HTTP/1.1" 304 -
+[2019-02-03 10:19:36] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:36] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:36] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:36] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:36] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:36] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:36] "GET /about HTTP/1.1" 200 -
+[2019-02-03 10:19:37] [INFO] SELECT * FROM b_leave_word   WHERE status = "1"   ORDER BY create_time DESC 
+[2019-02-03 10:19:37] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:37] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:37] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:37] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:37] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:37] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:37] "GET /leave HTTP/1.1" 200 -
+[2019-02-03 10:19:38] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 8
+[2019-02-03 10:19:38] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:38] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:38] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:38] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:38] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:38] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:38] "GET /photo HTTP/1.1" 200 -
+[2019-02-03 10:19:40] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-02-03 10:19:40] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:40] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:40] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:40] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:40] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:40] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:40] "GET /article HTTP/1.1" 200 -
+[2019-02-03 10:19:41] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-02-03 10:19:41] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:41] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:41] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:41] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:41] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:41] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:41] "GET / HTTP/1.1" 200 -
+[2019-02-03 10:19:43] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-02-03 10:19:43] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:43] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:43] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:43] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:43] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:43] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:43] "GET /article HTTP/1.1" 200 -
+[2019-02-03 10:19:44] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 8
+[2019-02-03 10:19:44] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:44] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:44] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:44] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:44] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:44] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:44] "GET /photo HTTP/1.1" 200 -
+[2019-02-03 10:19:44] [INFO] SELECT * FROM b_leave_word   WHERE status = "1"   ORDER BY create_time DESC 
+[2019-02-03 10:19:44] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:44] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:44] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:44] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:44] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:44] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:44] "GET /leave HTTP/1.1" 200 -
+[2019-02-03 10:19:45] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:45] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:45] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:45] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:45] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:45] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:45] "GET /about HTTP/1.1" 200 -
+[2019-02-03 10:19:47] [INFO] SELECT b.tag_name FROM b_article_tag a  INNER JOIN b_tag b ON b.id = a.tag_id  WHERE a.article_id = "5"   
+[2019-02-03 10:19:47] [INFO] SELECT * FROM b_article_comments   WHERE article_id = "5"   
+[2019-02-03 10:19:47] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-02-03 10:19:47] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-02-03 10:19:47] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-02-03 10:19:47] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-02-03 10:19:47] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-02-03 10:19:47] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:47] "GET /article?id=5 HTTP/1.1" 200 -
+[2019-02-03 10:19:47] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:47] "GET /static/home/js/comment.js HTTP/1.1" 304 -
+[2019-02-03 10:19:47] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:47] "GET /static/css/info.css HTTP/1.1" 304 -
+[2019-02-03 10:19:47] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:47] "GET /e/public/ViewClick/?classid=2&id=20&down=5 HTTP/1.1" 404 -
+[2019-02-03 10:19:47] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:47] "GET /e/pl/more/?classid=77&id=106&num=20 HTTP/1.1" 404 -
+[2019-02-03 10:19:47] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:47] "GET /e/public/ViewClick/?classid=2&id=20&down=5 HTTP/1.1" 404 -
+[2019-02-03 10:19:47] [INFO] 127.0.0.1 - - [03/Feb/2019 10:19:47] "GET /e/pl/more/?classid=77&id=106&num=20 HTTP/1.1" 404 -

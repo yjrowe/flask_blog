@@ -1,0 +1,8 @@
+<div class="wdxc">
+    <h2>我的相册</h2>
+    <ul>
+        {% for photo in photo_list %}
+        <li><a href="/article?id={{photo['item_id']}}"><img src="{{url_for('static', filename=photo['file_location'])}}"></a></li>
+        {% endfor %}
+    </ul>
+</div>

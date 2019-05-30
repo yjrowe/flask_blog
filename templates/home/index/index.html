@@ -1,0 +1,52 @@
+{% extends "base/base_index.html" %}
+
+{% block css %}
+<link href="{{ url_for('static', filename='css/pagination.css')}}" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block javascript %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/pagination.js') }}"></script>
+{% endblock %}
+
+{% block right_box %}
+<main class="r_box">
+    {% for article in article_list %}
+    <li>
+        {% if article['attachment'] %}
+        <i><a href="/article?id={{article['id']}}"><img src="{{url_for('static', filename=article['attachment']['file_location'])}}"></a></i>
+        {% endif %}
+        <h3>
+            {% if article['is_top'] %}
+            <span style="color: #de4949;">[ 顶 ]</span>
+            {% endif %}
+            <a href="/article?id={{article['id']}}">{{article['article_title']}}</a>
+        </h3>
+        <p>{{article['message']}}</p>
+    </li>
+    {% endfor %}
+    <!--<div id="ele">-->
+        <!--<div class="Pagination"></div>-->
+    <!--</div>-->
+</main>
+
+<script>
+    $(function () {
+        Pagination({
+            ele: '#ele',
+            totalCount: {{count}},
+            totalPage: 1,
+            currentPage: {{page}},
+            needTotalCount: true,
+            callback: function (page) {
+                console.log('当前是第' + page + '页')
+            }
+        });
+
+        $('.Pagination ul li').on('click', function () {
+            window.location.href = '/index?page=' + $(this).attr('data-page');
+        });
+    })
+</script>
+
+{% endblock %}

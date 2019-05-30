@@ -1,0 +1,8 @@
+<div class="tuijian">
+    <h2>站长推荐</h2>
+    <ul>
+        {% for recommend in recommend_list %}
+        <li><a href="/">{{ recommend['article_title'] }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

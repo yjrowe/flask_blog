@@ -1,0 +1,68 @@
+{% extends "base/base_about.html" %}
+
+{% block css %}
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block javascript %}
+
+{% endblock %}
+
+{% block right_box %}
+<main class="r_box">
+<div class="gbook">
+        {% if leave_list %}
+        {% for leave in leave_list %}
+        <div class="fb">
+            <ul>
+              <p class="fbtime"><span> {{leave['create_time']}} </span> {{leave['user_name']}} </p>
+              <p class="fbinfo">{{leave['content']}}</p>
+            </ul>
+          </div>
+          {% if leave['reply'] %}
+          <div class="hf">
+            <ul>
+              <p class="zzhf"><font color="#FF0000">站长回复:</font>{{leave['reply']}}</p>
+            </ul>
+          </div>
+          {% endif %}
+        {% endfor %}
+        {% endif %}
+
+      <div class="gbox">
+        <form action="/leave" method="post" id="form1" onsubmit="if (checkForm(this) !== true) {return false;}">
+          <p> <strong>来说点儿什么吧...</strong></p>
+          <p><span> 您的姓名:</span>
+            <input name="user_name" type="text" id="name">
+            *</p>
+          <p><span>联系邮箱:</span>
+            <input name="email" type="text" id="email">
+            *</p>
+          <p><span class="tnr">留言内容:</span>
+            <textarea name="content" cols="60" rows="12" id="content"></textarea>
+          </p>
+          <p>
+            <input type="submit" id="submit_btn" value="提交">
+          </p>
+        </form>
+      </div>
+    </div>
+  </main>
+    <script type="text/javascript">
+        function checkForm(_this) {
+            var data = $(_this).serializeArray();
+
+            if (!$.trim(data[0]['value'])) {
+                return alert('请填写你的姓名');
+            }
+
+            if (!$.trim(data[1]['value'])) {
+                return alert('请填写你的邮箱');
+            }
+
+            $('#submit_btn').attr('disabled', 'disabled');
+
+            return true;
+        }
+    </script>
+{% endblock %}

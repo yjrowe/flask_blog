@@ -1,0 +1,8 @@
+<div class="links">
+    <h2>友情链接</h2>
+    <ul>
+        {% for friendly_link in friendly_link_list %}
+        <a href="{{friendly_link['link_url']}}">{{friendly_link['link_name']}}</a>
+        {% endfor %}
+    </ul>
+</div>

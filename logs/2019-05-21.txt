@@ -1,0 +1,148 @@
+[2019-05-21 09:13:40] [INFO]  * Restarting with stat
+[2019-05-21 09:13:41] [WARNING]  * Debugger is active!
+[2019-05-21 09:13:41] [INFO]  * Debugger PIN: 531-486-818
+[2019-05-21 09:13:41] [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-21 09:13:57] [INFO] 127.0.0.1 - - [21/May/2019 09:13:57] "GET /favicon.ico HTTP/1.1" 404 -
+[2019-05-21 09:14:04] [INFO] 127.0.0.1 - - [21/May/2019 09:14:04] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:14:04] [INFO] 127.0.0.1 - - [21/May/2019 09:14:04] "GET /favicon.ico HTTP/1.1" 404 -
+[2019-05-21 09:14:51] [INFO] 127.0.0.1 - - [21/May/2019 09:14:51] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:14:59] [INFO] 127.0.0.1 - - [21/May/2019 09:14:59] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:15:04] [INFO] 127.0.0.1 - - [21/May/2019 09:15:04] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:15:25] [INFO]  * Detected change in 'D:\\python\\project\\blog\\application\\home\\views\\index.py', reloading
+[2019-05-21 09:15:25] [INFO]  * Restarting with stat
+[2019-05-21 09:15:27] [WARNING]  * Debugger is active!
+[2019-05-21 09:15:27] [INFO]  * Debugger PIN: 531-486-818
+[2019-05-21 09:15:27] [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-21 09:15:31] [INFO] 127.0.0.1 - - [21/May/2019 09:15:31] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:15:34] [INFO] 127.0.0.1 - - [21/May/2019 09:15:34] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:19:08] [INFO] 127.0.0.1 - - [21/May/2019 09:19:08] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20190520/5ce21b2899cd1.docx HTTP/1.1" 200 -
+[2019-05-21 09:19:16] [INFO] 127.0.0.1 - - [21/May/2019 09:19:16] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20190520/5ce21b2899cd1.docx HTTP/1.1" 200 -
+[2019-05-21 09:19:22] [INFO] 127.0.0.1 - - [21/May/2019 09:19:22] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20190520/5ce21b2899cd1.docx HTTP/1.1" 200 -
+[2019-05-21 09:19:46] [INFO] 127.0.0.1 - - [21/May/2019 09:19:46] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20190520/5ce21b2899cd1.docx HTTP/1.1" 200 -
+[2019-05-21 09:20:16] [INFO] 127.0.0.1 - - [21/May/2019 09:20:16] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20190520/5ce21b2899cd1.docx HTTP/1.1" 200 -
+[2019-05-21 09:20:20] [INFO] 127.0.0.1 - - [21/May/2019 09:20:20] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20190520/5ce21b2899cd1.docx HTTP/1.1" 200 -
+[2019-05-21 09:25:29] [INFO]  * Restarting with stat
+[2019-05-21 09:25:31] [WARNING]  * Debugger is active!
+[2019-05-21 09:25:31] [INFO]  * Debugger PIN: 531-486-818
+[2019-05-21 09:25:31] [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-21 09:25:47] [INFO]  * Restarting with stat
+[2019-05-21 09:25:48] [WARNING]  * Debugger is active!
+[2019-05-21 09:25:48] [INFO]  * Debugger PIN: 531-486-818
+[2019-05-21 09:25:48] [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-21 09:26:05] [INFO] 127.0.0.1 - - [21/May/2019 09:26:05] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:26:09] [INFO] 127.0.0.1 - - [21/May/2019 09:26:09] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:26:14] [INFO]  * Restarting with stat
+[2019-05-21 09:26:16] [WARNING]  * Debugger is active!
+[2019-05-21 09:26:16] [INFO]  * Debugger PIN: 531-486-818
+[2019-05-21 09:26:16] [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-21 09:39:30] [INFO] 127.0.0.1 - - [21/May/2019 09:39:30] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:01] [INFO] 127.0.0.1 - - [21/May/2019 09:40:01] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:04] [INFO] 127.0.0.1 - - [21/May/2019 09:40:04] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:05] [INFO] 127.0.0.1 - - [21/May/2019 09:40:05] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:06] [INFO] 127.0.0.1 - - [21/May/2019 09:40:06] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:07] [INFO] 127.0.0.1 - - [21/May/2019 09:40:07] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:07] [INFO] 127.0.0.1 - - [21/May/2019 09:40:07] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:08] [INFO] 127.0.0.1 - - [21/May/2019 09:40:08] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:08] [INFO] 127.0.0.1 - - [21/May/2019 09:40:08] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:09] [INFO] 127.0.0.1 - - [21/May/2019 09:40:09] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:09] [INFO] 127.0.0.1 - - [21/May/2019 09:40:09] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:10] [INFO] 127.0.0.1 - - [21/May/2019 09:40:10] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:10] [INFO] 127.0.0.1 - - [21/May/2019 09:40:10] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:11] [INFO] 127.0.0.1 - - [21/May/2019 09:40:11] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:26] [INFO] 127.0.0.1 - - [21/May/2019 09:40:26] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:28] [INFO] 127.0.0.1 - - [21/May/2019 09:40:28] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:50] [INFO] 127.0.0.1 - - [21/May/2019 09:40:50] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:40:51] [INFO] 127.0.0.1 - - [21/May/2019 09:40:51] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:42:16] [INFO] 127.0.0.1 - - [21/May/2019 09:42:16] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:42:17] [INFO] 127.0.0.1 - - [21/May/2019 09:42:17] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:42:53] [INFO] 127.0.0.1 - - [21/May/2019 09:42:53] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:42:54] [INFO] 127.0.0.1 - - [21/May/2019 09:42:54] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:43:28] [INFO] 127.0.0.1 - - [21/May/2019 09:43:28] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:43:32] [INFO] 127.0.0.1 - - [21/May/2019 09:43:32] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:43:35] [INFO] 127.0.0.1 - - [21/May/2019 09:43:35] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:43:37] [INFO] 127.0.0.1 - - [21/May/2019 09:43:37] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:44:14] [INFO] 127.0.0.1 - - [21/May/2019 09:44:14] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:45:21] [INFO] 127.0.0.1 - - [21/May/2019 09:45:21] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:46:55] [INFO]  * Restarting with stat
+[2019-05-21 09:46:56] [WARNING]  * Debugger is active!
+[2019-05-21 09:46:56] [INFO]  * Debugger PIN: 531-486-818
+[2019-05-21 09:46:56] [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-21 09:48:27] [INFO] 127.0.0.1 - - [21/May/2019 09:48:27] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:48:28] [INFO] 127.0.0.1 - - [21/May/2019 09:48:28] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:49:24] [INFO] 127.0.0.1 - - [21/May/2019 09:49:24] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:49:32] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-05-21 09:49:32] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-05-21 09:49:32] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-05-21 09:49:32] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-05-21 09:49:32] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-05-21 09:49:32] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET / HTTP/1.1" 200 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/css/base.css HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/css/m.css HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/css/index.css HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/css/pagination.css HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/js/comm.js HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/js/pagination.js HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/user/my.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/photo/1.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/photo/2.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/photo/3.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/photo/4.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/photo/5.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/photo/6.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/follow/follow.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/uploads/photo/12.jpg HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/images/li.png HTTP/1.1" 304 -
+[2019-05-21 09:49:32] [INFO] 127.0.0.1 - - [21/May/2019 09:49:32] "GET /static/images/top.png HTTP/1.1" 304 -
+[2019-05-21 09:49:39] [INFO] SELECT b.tag_name FROM b_article_tag a  INNER JOIN b_tag b ON b.id = a.tag_id  WHERE a.article_id = "3"   
+[2019-05-21 09:49:39] [INFO] SELECT * FROM b_article_comments   WHERE article_id = "3"   
+[2019-05-21 09:49:39] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-05-21 09:49:39] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-05-21 09:49:39] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-05-21 09:49:39] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-05-21 09:49:39] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-05-21 09:49:39] [INFO] 127.0.0.1 - - [21/May/2019 09:49:39] "GET /article?id=3 HTTP/1.1" 200 -
+[2019-05-21 09:49:39] [INFO] 127.0.0.1 - - [21/May/2019 09:49:39] "GET /static/css/info.css HTTP/1.1" 200 -
+[2019-05-21 09:49:39] [INFO] 127.0.0.1 - - [21/May/2019 09:49:39] "GET /static/home/js/comment.js HTTP/1.1" 200 -
+[2019-05-21 09:49:39] [INFO] 127.0.0.1 - - [21/May/2019 09:49:39] "GET /e/public/ViewClick/?classid=2&id=20&down=5 HTTP/1.1" 404 -
+[2019-05-21 09:49:39] [INFO] 127.0.0.1 - - [21/May/2019 09:49:39] "GET /e/pl/more/?classid=77&id=106&num=20 HTTP/1.1" 404 -
+[2019-05-21 09:49:39] [INFO] 127.0.0.1 - - [21/May/2019 09:49:39] "GET /e/public/ViewClick/?classid=2&id=20&down=5 HTTP/1.1" 404 -
+[2019-05-21 09:49:39] [INFO] 127.0.0.1 - - [21/May/2019 09:49:39] "GET /e/pl/more/?classid=77&id=106&num=20 HTTP/1.1" 404 -
+[2019-05-21 09:50:01] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-05-21 09:50:01] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-05-21 09:50:01] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-05-21 09:50:01] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-05-21 09:50:01] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-05-21 09:50:01] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-05-21 09:50:01] [INFO] 127.0.0.1 - - [21/May/2019 09:50:01] "GET / HTTP/1.1" 200 -
+[2019-05-21 09:50:18] [INFO] SELECT id,article_title,message,is_top FROM b_article   WHERE status = "1" AND  category_id = "1"   ORDER BY is_top DESC  LIMIT 0, 13
+[2019-05-21 09:50:18] [INFO] SELECT * FROM b_article a  LEFT JOIN b_attachment b ON a.id = b.item_id  WHERE a.category_id = "2" AND  b.access_key = "photo"  GROUP BY a.id   LIMIT 0, 6
+[2019-05-21 09:50:18] [INFO] SELECT COUNT(*) as article_num, a.category_title,a.id FROM b_category a  INNER JOIN b_article b ON a.id = b.category_id   GROUP BY a.id  
+[2019-05-21 09:50:18] [INFO] SELECT id,article_title FROM b_article   WHERE is_recommend = "1"   
+[2019-05-21 09:50:18] [INFO] SELECT * FROM b_friendly_link   WHERE status = "1"   
+[2019-05-21 09:50:18] [INFO] SELECT id,article_title FROM b_article   WHERE status = "1"   ORDER BY views DESC  LIMIT 0, 8
+[2019-05-21 09:50:18] [INFO] 127.0.0.1 - - [21/May/2019 09:50:18] "GET / HTTP/1.1" 200 -
+[2019-05-21 09:51:58] [INFO] 127.0.0.1 - - [21/May/2019 09:51:58] "GET / HTTP/1.1" 500 -
+[2019-05-21 09:51:58] [INFO] 127.0.0.1 - - [21/May/2019 09:51:58] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2019-05-21 09:51:58] [INFO] 127.0.0.1 - - [21/May/2019 09:51:58] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2019-05-21 09:51:58] [INFO] 127.0.0.1 - - [21/May/2019 09:51:58] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2019-05-21 09:51:58] [INFO] 127.0.0.1 - - [21/May/2019 09:51:58] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2019-05-21 09:51:58] [INFO] 127.0.0.1 - - [21/May/2019 09:51:58] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2019-05-21 09:51:59] [INFO] 127.0.0.1 - - [21/May/2019 09:51:59] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2019-05-21 09:52:10] [INFO] 127.0.0.1 - - [21/May/2019 09:52:10] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 09:53:08] [INFO] 127.0.0.1 - - [21/May/2019 09:53:08] "GET / HTTP/1.1" 500 -
+[2019-05-21 09:53:08] [INFO] 127.0.0.1 - - [21/May/2019 09:53:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2019-05-21 09:53:08] [INFO] 127.0.0.1 - - [21/May/2019 09:53:08] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2019-05-21 09:53:08] [INFO] 127.0.0.1 - - [21/May/2019 09:53:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2019-05-21 09:53:08] [INFO] 127.0.0.1 - - [21/May/2019 09:53:08] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2019-05-21 09:53:08] [INFO] 127.0.0.1 - - [21/May/2019 09:53:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2019-05-21 09:53:46] [INFO] 127.0.0.1 - - [21/May/2019 09:53:46] "GET /favicon.ico HTTP/1.1" 404 -
+[2019-05-21 09:53:52] [INFO] 127.0.0.1 - - [21/May/2019 09:53:52] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -
+[2019-05-21 10:24:34] [INFO] 127.0.0.1 - - [21/May/2019 10:24:34] "GET / HTTP/1.1" 500 -
+[2019-05-21 10:24:34] [INFO] 127.0.0.1 - - [21/May/2019 10:24:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2019-05-21 10:24:34] [INFO] 127.0.0.1 - - [21/May/2019 10:24:34] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2019-05-21 10:24:34] [INFO] 127.0.0.1 - - [21/May/2019 10:24:34] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2019-05-21 10:24:34] [INFO] 127.0.0.1 - - [21/May/2019 10:24:34] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2019-05-21 10:24:34] [INFO] 127.0.0.1 - - [21/May/2019 10:24:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2019-05-21 10:24:39] [INFO] 127.0.0.1 - - [21/May/2019 10:24:39] "GET /officeToPdf?file=D:/project/zimaoqu/Uploads/report/20180914/5b9b6df734e2a.docx HTTP/1.1" 200 -

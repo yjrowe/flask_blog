@@ -1,0 +1,8 @@
+<div class="tuijian">
+    <h2>点击排行</h2>
+    <ul>
+        {% for rank in rank_list %}
+        <li><a href="/article?id={{rank['id']}}">{{rank['article_title']}}</a></li>
+        {% endfor %}
+    </ul>
+</div>

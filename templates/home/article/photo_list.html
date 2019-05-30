@@ -1,0 +1,31 @@
+{% extends "base/common2.html" %}
+
+{% block css %}
+
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}
+
+{% block photo_list %}
+<div class="picbox">
+    {% for i in range(0, len) %}
+    {% if i % 2 == 0 %}
+    <ul>
+        <li data-scroll-reveal="enter bottom over 1s"><a href="/photo?id={{photo_list1[i]['id']}}"><i><img src="{{url_for('static', filename=photo_list1[i]['file_location'])}}"></i>
+            <div class="picinfo">
+                <h3>{{photo_list1[i]['article_title']}}</h3>
+                <span>{{photo_list1[i]['brief']}}</span></div>
+        </a></li>
+        {% if i + 1 != len %}
+        <li data-scroll-reveal="enter bottom over 1s"><a href="/photo?id={{photo_list1[i+1]['id']}}"><i><img src="{{url_for('static', filename=photo_list1[i+1]['file_location'])}}"></i>
+            <div class="picinfo">
+                <h3>{{photo_list1[i+1]['article_title']}}</h3>
+                <span>{{photo_list1[i+1]['brief']}}</span></div>
+        </a></li>
+        {% endif %}
+    </ul>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

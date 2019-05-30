@@ -1,0 +1,35 @@
+<main class="r_box">
+    {% for article in article_list %}
+    <li><i><a href="/article?id={{article['id']}}"><img src="images/1.jpg"></a></i>
+        <h3>
+            {% if article['is_top'] %}
+            <span style="color: #de4949;">[ 顶 ]</span>
+            {% endif %}
+            <a href="/article?id={{article['id']}}">{{article['article_title']}}</a>
+        </h3>
+        <p>{{article['message']}}</p>
+    </li>
+    {% endfor %}
+    <div id="ele">
+        <div class="Pagination"></div>
+    </div>
+</main>
+
+<script>
+    $(function () {
+        Pagination({
+            ele: '#ele',
+            totalCount: {{count}},
+            totalPage: 1,
+            currentPage: {{page}},
+            needTotalCount: true,
+            callback: function (page) {
+                console.log('当前是第' + page + '页')
+            }
+        });
+
+        $('.Pagination ul li').on('click', function () {
+            window.location.href = '/index?page=' + $(this).attr('data-page');
+        });
+    })
+</script>
